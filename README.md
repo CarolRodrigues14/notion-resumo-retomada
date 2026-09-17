@@ -63,10 +63,8 @@ bloqueados por freelance/compras coletivas) fica configurada em
 
 ## 4. Prints
 
-> Substitua os placeholders abaixo pelos prints reais do seu Notion e do
-> terminal rodando o agente antes de entregar.
 
-- [![alt text](image.png)] Página central do Sistema Operacional Pessoal
+- ![alt text](image.png) Página central do Sistema Operacional Pessoal
 - [![alt text](image-1.png)] Matriz de Eisenhower (board por quadrante)
 - [![alt text](image-2.png)] Diário de Retomada com o campo "Resumo IA" preenchido
 - [![alt text](image-3.png)] Tarefas Reformuladas (calendário/Time Blocking) com bloco sugerido
