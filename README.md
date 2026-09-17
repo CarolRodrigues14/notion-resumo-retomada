@@ -66,10 +66,10 @@ bloqueados por freelance/compras coletivas) fica configurada em
 > Substitua os placeholders abaixo pelos prints reais do seu Notion e do
 > terminal rodando o agente antes de entregar.
 
-- [ ] Página central do Sistema Operacional Pessoal
-- [ ] Matriz de Eisenhower (board por quadrante)
-- [ ] Diário de Retomada com o campo "Resumo IA" preenchido
-- [ ] Tarefas Reformuladas (calendário/Time Blocking) com bloco sugerido
+- [![alt text](image.png)] Página central do Sistema Operacional Pessoal
+- [![alt text](image-1.png)] Matriz de Eisenhower (board por quadrante)
+- [![alt text](image-2.png)] Diário de Retomada com o campo "Resumo IA" preenchido
+- [![alt text](image-3.png)] Tarefas Reformuladas (calendário/Time Blocking) com bloco sugerido
 - [ ] Terminal rodando `node index.js` com os 3 passos completos
 
 ## 5. Como utilizar a solução
