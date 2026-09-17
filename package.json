@@ -1,0 +1,17 @@
+{
+  "name": "notion-resumo-retomada",
+  "version": "1.0.0",
+  "description": "Agente de IA que lê o Diário de Retomada no Notion, gera resumos, classifica na Matriz de Eisenhower e sugere blocos de horário",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "mcp": "node mcp-server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "@notionhq/client": "^5.2.0",
+    "dotenv": "^17.2.3",
+    "groq-sdk": "^0.36.0",
+    "zod": "^4.1.13"
+  }
+}

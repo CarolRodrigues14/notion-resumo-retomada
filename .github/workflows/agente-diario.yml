@@ -1,0 +1,31 @@
+name: Agente Diário - Sistema Operacional Pessoal
+
+on:
+  schedule:
+    # Roda todo dia às 06:00 (horário de Brasília, UTC-3 -> 09:00 UTC)
+    - cron: "0 9 * * *"
+  workflow_dispatch: # permite rodar manualmente pela aba Actions também
+
+jobs:
+  rodar-agente:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar o código do repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Instalar dependências
+        run: npm install
+
+      - name: Rodar o agente
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          DIARIO_DATA_SOURCE_ID: ${{ secrets.DIARIO_DATA_SOURCE_ID }}
+          MATRIZ_DATA_SOURCE_ID: ${{ secrets.MATRIZ_DATA_SOURCE_ID }}
+          TAREFAS_DATA_SOURCE_ID: ${{ secrets.TAREFAS_DATA_SOURCE_ID }}
+        run: node index.js
