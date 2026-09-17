@@ -64,11 +64,11 @@ bloqueados por freelance/compras coletivas) fica configurada em
 ## 4. Prints
 
 
-- ![alt text](image.png) Página central do Sistema Operacional Pessoal
-- [![alt text](image-1.png)] Matriz de Eisenhower (board por quadrante)
-- [![alt text](image-2.png)] Diário de Retomada com o campo "Resumo IA" preenchido
-- [![alt text](image-3.png)] Tarefas Reformuladas (calendário/Time Blocking) com bloco sugerido
-- [ ] Terminal rodando `node index.js` com os 3 passos completos
+![alt text](image.png) Página central do Sistema Operacional Pessoal
+![alt text](image-1.png) Matriz de Eisenhower (board por quadrante)
+![alt text](image-2.png) Diário de Retomada com o campo "Resumo IA" preenchido
+![alt text](image-3.png) Tarefas Reformuladas (calendário/Time Blocking) com bloco sugerido
+[ ] Terminal rodando `node index.js` com os 3 passos completos
 
 ## 5. Como utilizar a solução
 
